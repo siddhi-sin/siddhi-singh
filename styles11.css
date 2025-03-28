@@ -2,7 +2,11 @@
 html {
     scroll-behavior: smooth;
 }
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* Position the Image in the Left Corner */
 .top-left-image {
     position: absolute;
