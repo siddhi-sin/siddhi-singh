@@ -1,0 +1,609 @@
+/* Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Position the Image in the Left Corner */
+.top-left-image {
+    position: absolute;
+    top: 0px;  
+    left: 0px; 
+    width: 300px;  
+    height: auto;  
+}
+
+/* Existing styles */
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+body {
+    font-family: 'Chewy', sans-serif;
+    background-color: #fffae4;
+    margin: 0;
+    position: relative;
+    user-select: none;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh; /* Full screen height */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text over the Image */
+.overlay-text {
+    position: absolute;
+    color: rgb(63, 20, 20);
+    font-family: 'Chewy', sans-serif;
+    font-size: 150px;
+    text-align: center;
+    top: 350px;
+    left: 10px;
+    right: 50px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Tagline under the main text */
+.tag {
+    position: absolute;
+    top: 55%;
+    color: rgb(63, 20, 20);
+    font-size: 50px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.checks {
+    position: absolute;
+    width: 800px;
+}
+.checks1 {
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+    width: 800px;
+}
+.checks2{
+    position: absolute;
+    bottom: 50px;
+    right: 900px;
+    width: 600px;
+}
+
+/* Center Image */
+.center-image {
+    width: 900px; 
+    height: auto;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* About Section (Comes right after the hero section) */
+.intro {
+    position: relative;
+    background-color: #fff3e0;
+    text-align: left;
+    width: 100%;
+    padding: 100px 20px;
+    min-height: 100vh;
+    margin-top: 10; /* Starts right after the hero section */
+}
+/* Styling for the Introduction */
+.intro h2 {
+    font-size: 50px;
+    color: #5A2E23;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.intro p {
+    font-size: 30px;
+    color: #5A2E23;
+    max-width: 800px; /* Keeps text width limited */
+    margin: 0; /* Removes auto centering */
+    padding-left: 100px; /* Moves text towards the left */
+    text-align: left; /* Ensures text aligns to the left */
+    line-height: 1.6;
+}
+
+.profile_pic{
+    position: absolute;
+    bottom: 250px;
+    right: 300px;
+    width: 700px;
+}
+
+.brown{
+    position: absolute;
+    top: 80px;
+    right: 440px;
+    width: 150px;
+    transform: rotate(180deg);
+    height: auto;
+}
+
+.skills {
+    max-width: 800px;
+    margin: 100px auto; /* Add spacing */
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.6;
+    position: relative;
+}
+
+.skills {
+    display: block;
+    position: relative;
+    z-index: 10; /* Ensures it's visible above other sections */
+}
+
+.skills h2 {
+    font-size: 50px;
+    color: #5A2E23;
+    top:100px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+    right:500px;
+}
+
+
+/* Optional: Center the skills list as well */
+.skills ul {
+    /* float: right;
+    width: 50%; /* Adjust as needed */
+    /* top:200px;
+    margin-right: 50px; Keeps list items aligned properly */ 
+
+        position: relative;
+        right: -450px; /* Adjust this value to shift it further right */
+        font-size: 30px;
+        color: #010100;
+        max-width: 1000px;
+        margin: 0;
+        text-align: left;
+        line-height: 1.6;
+        width:500px;
+        bottom: 150px;
+    
+    
+}
+
+.part1{
+    position:absolute;
+    width: 500px;
+    right: 550px;
+    top:150px;
+    /* filter: hue-rotate(180deg); */
+}
+
+.part2  {
+    position:absolute;
+    width: 500px;
+    right: 550px;
+    top:   500px;
+}
+
+.text1{
+    position: relative;
+    font-size: 30px;
+    right: 390px;
+    top:65px;
+}
+
+.text2{
+    position: relative;
+    font-size: 30px;
+    right: 390px;
+    top:155px;
+}
+
+.text3{
+    position: relative;
+    font-size: 30px;
+    right: 390px;
+    top:345px;
+}
+
+.text4{
+    position: relative;
+    font-size: 30px;
+    right: 390px;
+    top:410px;
+}
+
+
+h1 {
+    font-size: 36px;
+    color: #5A2E23;
+}
+.bottom-image {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 380px;
+    height: auto;
+}
+
+.bottom-image1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 400px;
+    transform: scaleY(-1);
+    height: auto;
+}
+
+
+.bottom-image2{
+    position: absolute;
+    top: 590px;
+    left: 0px;
+    width: 350px;
+    transform: rotate(270deg);
+    height: auto;
+}
+
+.projects {
+    position: relative;
+    background-color: #fff3e0;
+    text-align: left;
+    width: 100%;
+    padding: 100px 20px;
+    min-height: 100vh;
+    margin-top: 0; /* Starts right after the hero section */
+    top:50px;
+}
+.projects h2 {
+    font-size: 50px;
+    color: #5A2E23;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.projects ul {
+    font-size: 30px;
+    color: #5A2E23;
+    max-width: 800px; /* Keeps text width limited */
+    margin: 0; /* Removes auto centering */
+    padding-left: 100px; /* Moves text towards the left */
+    text-align: left; /* Ensures text aligns to the left */
+    line-height: 1.6;
+}
+
+.project1{
+    font-size: 40px;
+    color: #5A2E23;
+    max-width: 800px; /* Keeps text width limited */
+    margin: 0; /* Removes auto centering */
+    padding-left: 100px; /* Moves text towards the left */
+    text-align: left; /* Ensures text aligns to the left */
+    line-height: 1.6;
+}
+
+.prj1{
+    position:absolute;
+    right:330px;
+    top:200px;
+    width:500px;
+    background-origin: padding-box;
+    z-index: 10;
+    border-radius: 25px;
+}
+
+
+
+.projects2 {
+    position: relative;
+    background-color: #faf5c6;
+    text-align: left;
+    width: 100%;
+    padding: 100px 20px;
+    min-height: 100vh;
+    margin-top: 10; /* Starts right after the hero section */
+}
+.projects2 h2 {
+    font-size: 50px;
+    color: #5A2E23;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.projects2 ul {
+    font-size: 30px;
+    color: #5A2E23;
+    max-width: 800px; /* Keeps text width limited */
+    margin: 0; /* Removes auto centering */
+    padding-left: 100px; /* Moves text towards the left */
+    text-align: left; /* Ensures text aligns to the left */
+    line-height: 1.6;
+}
+
+.project2{
+    font-size: 40px;
+    color: #5A2E23;
+    max-width: 800px; /* Keeps text width limited */
+    margin: 0; /* Removes auto centering */
+    padding-left: 100px; /* Moves text towards the left */
+    text-align: left; /* Ensures text aligns to the left */
+    line-height: 1.6;
+}
+.center-image1 {
+    width: 800px; 
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Lower z-index keeps it behind */
+    filter: hue-rotate(50deg);
+}
+
+
+.center-image2 {
+    width: 900px; 
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Lower z-index keeps it behind */
+    filter: hue-rotate(180deg);
+}
+
+.resume {
+    position: absolute;
+    right: 300px;
+    top: 70px;
+    width: 600px;
+    background-origin: padding-box;
+    z-index: 10; /* Higher z-index ensures it appears in front */
+}
+
+.bro1{
+    position: absolute;
+    top:40px;
+    left:50px;
+    transform: rotate(60deg);
+}
+
+.sparkle-image101{
+    position: absolute;
+    top:15px;
+    left:550px;
+    width:120px;
+}
+
+.bro{
+    filter:hue-rotate(50deg)
+}
+
+.lctg{
+    font-size: 50px;
+    color: #5A2E23;
+    max-width: 800px; /* Keeps text width limited */
+    margin: 0; /* Removes auto centering */
+    padding-left: 300px; /* Moves text towards the left */
+    text-align: left; /* Ensures text aligns to the left */
+    line-height: 1.6;
+    top:300px;
+}
+
+.Connect{
+    width: 100%;
+    min-height: 100vh; /* Ensures it takes the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: left; /* Centers content horizontally */
+    background-color: #fdf4e3; /* Adjust to match your theme */
+    text-align: center; 
+    padding: 200px 20px;
+    margin-top: 0px;
+}
+
+.Connect p{
+    font-size: 50px;
+    color: #5A2E23; /* Keeps text width limited */
+    margin: 0; /* Removes auto centering */
+    padding-left: 300px; /* Moves text towards the left */
+    text-align: left; /* Ensures text aligns to the left */
+    line-height: 1.6;
+    top:100px;
+    left:200px;
+
+}
+
+.spk{
+    position: relative;
+    width:150px;
+    left:1700px;
+    top: 300px;
+}
+
+.l2{
+    position:absolute;
+    left:200px;
+    bottom:1250px;;
+    transform: rotate(10deg);
+    width:150px;
+}
+
+.connect{
+    position:relative;
+    left:875px;
+    bottom:350px;
+    width:800px;
+
+}
+.cn{
+    position:absolute;
+    left:210px;
+    bottom:850px;
+    font-size: 30px;
+    width:800px;
+    text-align: left;
+    max-width: 550px; /* Adjust width as needed */
+    padding: 100px; /* Reduce extra padding */
+    margin: auto;
+}
+.contact-info{
+    position: absolute;
+    bottom: 1050px;
+    right:60px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0); /* Adjust color based on background */
+    padding: 15px;
+    z-index: 2; 
+}
+
+.email{
+    position: absolute;
+    bottom: 900px;
+    left:1320px;;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 40px ;
+    color: rgb(131, 75, 75); /* Adjust color based on background */
+    padding: 15px;
+    z-index: 2; 
+}
+
+.git{
+    position: absolute;
+    bottom: 700px;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(239, 237, 237); /* Adjust color based on background */
+    padding: 15px;
+    z-index: 2; 
+}
+
+.footer {
+    text-align: center;  /* Center the text */
+    font-size: 1rem;     /* Adjust size */
+    padding: 10px;       /* Add space around */
+    position: fixed;     /* Fix it at the bottom */
+    bottom: 0px;;
+    width: 100%;
+    background-color: #f5f5f5; /* Light background */
+    color: #333;         /* Dark text */
+}
+
+
+.bro{
+    position: absolute;
+    top:30px;
+    left:10px;
+    transform: rotate(59deg);
+    width:150px;
+}
+.curve1-image {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 600px;
+    height: auto;
+}
+.curve2-image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 600px;
+    transform: rotate(180deg);
+    height: auto;
+}
+.line1-image {
+    position: absolute;
+    top: 600px;
+    right: 520px;
+    width: 150px;
+    transform: rotate(188deg);
+    height: auto;
+}
+.line2-image {
+    position: absolute;
+    top: 110px;
+    left: 420px;
+    width: 155px;
+    transform: rotate(-10deg);
+    height: auto;
+}
+.sparkle-image {
+    position: absolute;
+    top: 510px;
+    left: 400px;
+    width: 155px;
+    /* transform: rotate(-10deg); */
+    height: auto;
+}
+.sparkle-image1 {
+    position: absolute;
+    top: 65px;
+    left: 400px;
+    width: 125px;
+    /* transform: rotate(-10deg); */
+     height: auto;
+}
+
+.sparkle-image11{position: absolute;
+    top: 20px;
+    left: 830px;
+    width: 125px;
+    /* transform: rotate(-10deg); */
+     height: auto;}
+
+
+     
+
+.bottom-image11{
+    position: absolute;
+    bottom: 510px;
+    right: 420px;
+    width: 155px;
+    transform: rotate(180deg);
+    height: auto;
+}
+.brown1{
+    position: absolute;
+    bottom: 880px;
+    right: 800px;
+    width: 650px;
+    transform: scaleY(-1);
+    height: auto;
+}
+/* .bottom-image21{
+    position: absolute;
+    top: 600px;
+    right: 520px;
+    width: 150px;
+    transform: rotate(188deg);
+    height: auto;
+} */
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .overlay-text {
+        font-size: 80px;
+        top: 200px;
+    }
+
+    .tag {
+        font-size: 30px;
+    }
+
+    .intro h2 {
+        font-size: 35px;
+    }
+
+    .intro p {
+        font-size: 18px;
+    }
+}
