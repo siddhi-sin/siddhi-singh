@@ -2,11 +2,7 @@
 html {
     scroll-behavior: smooth;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 /* Position the Image in the Left Corner */
 .top-left-image {
     position: absolute;
@@ -114,7 +110,7 @@ body {
 
 .profile_pic{
     position: absolute;
-    top: 250px;
+    bottom: 250px;
     right: 300px;
     width: 700px;
 }
