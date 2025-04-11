@@ -109,8 +109,8 @@ body {
 }
 
 .profile_pic{
-    position: relative;
-    bottom: 450px;
+    position: absolute;
+    bottom: 350px;
     right: 300px;
     width: 700px;
 }
@@ -545,7 +545,7 @@ h1 {
 }
 .sparkle-image1 {
     position: absolute;
-    top: 65px;
+    top: 55px;
     left: 400px;
     width: 125px;
     /* transform: rotate(-10deg); */
