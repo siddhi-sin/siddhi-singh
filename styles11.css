@@ -110,9 +110,9 @@ body {
 
 .profile_pic{
     position: absolute;
-    top: 1450px;
+    bottom: 250px;
     right: 300px;
-    width: 700px;
+    width: 600px;
 }
 
 .brown{
@@ -587,7 +587,16 @@ h1 {
     height: auto;
 } */
 
-
+.footer {
+    text-align: center;  /* Center the text */
+    font-size: 1rem;     /* Adjust size */
+    padding: 10px;       /* Add space around */
+    position: fixed;     /* Fix it at the bottom */
+    bottom: 0px;;
+    width: 100%;
+    background-color: #f5f5f5; /* Light background */
+    color: #333;         /* Dark text */
+}
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .overlay-text {
