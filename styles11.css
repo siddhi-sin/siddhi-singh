@@ -109,10 +109,10 @@ body {
 }
 
 .profile_pic{
-    position: flex;
-    top: 450px;
+    position: absolute;
+    bottom: 250px;
     right: 300px;
-    width: 600px;
+    width: 500px;
 }
 
 .brown{
