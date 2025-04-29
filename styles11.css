@@ -110,7 +110,7 @@ body {
 
 .profile_pic{
     position: absolute;
-    bottom: 450px;
+    top: 450px;
     right: 300px;
     width: 600px;
 }
